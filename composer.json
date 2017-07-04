@@ -1,0 +1,26 @@
+{
+    "name": "ejimba/authenticator",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ejimba Eric",
+            "email": "ejimba@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "cartalyst/sentry": "2.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/seeds"
+        ],
+        "psr-0": {
+            "Ejimba\\Authenticator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
